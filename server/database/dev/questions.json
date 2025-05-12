@@ -1,0 +1,227 @@
+[
+  {
+    "_id": {
+      "$oid": "6274c14be0313d4f9efed80a"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "6274c0a6e0313d4f9efed809"
+    },
+    "content": "Chương trình tìm ước của 2 số nguyên",
+    "point": 150,
+    "solution": "12-17-5-1-13-15-11-18-2-8-7-16-9-14-19-6-10-3-4-20,12-17-5-16-13-15-11-18-2-8-7-1-9-14-19-6-10-3-4-20,12-17-5-1-13-15-11-18-2-8-7-16-9-14-19-6-20-3-4-10,12-17-5-16-13-15-11-18-2-8-7-1-9-14-19-6-20-3-4-10",
+    "image": "[{\"id\":12,\"content\":\"#include<stdio.h>\"},{\"id\":17,\"content\":\"#include<conio.h>\"},{\"id\":5,\"content\":\"int main()\"},{\"id\":1,\"content\":\"{\"},{\"id\":13,\"content\":\"int a, b;\"},{\"id\":15,\"content\":\"printf(''\\nNhap a: '');\"},{\"id\":11,\"content\":\"scanf(''%d'', &a);\"},{\"id\":18,\"content\":\"printf(''\\nNhap b: '');\"},{\"id\":2,\"content\":\"scanf(''%d'', &b);\"},{\"id\":8,\"content\":\"printf(''\\nUCLN cua %d va %d la: '', a, b);\"},{\"id\":7,\"content\":\"while(a != b)\"},{\"id\":16,\"content\":\"{\"},{\"id\":9,\"content\":\"if(a > b)\"},{\"id\":14,\"content\":\"a = a - b;\"},{\"id\":19,\"content\":\"else\"},{\"id\":6,\"content\":\"b = b - a;\"},{\"id\":10,\"content\":\"}\"},{\"id\":3,\"content\":\"printf(''%d'', a);\"},{\"id\":4,\"content\":\"return 0;\"},{\"id\":20,\"content\":\"}\"}]",
+    "year": "2023",
+    "timePeriod": 300
+  },
+  {
+    "_id": {
+      "$oid": "628204ae1c19ea32325aedda"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "6279d8e85cc10b621211341b"
+    },
+    "content": "/api/files/round04_programming/Q1.png",
+    "point": 200,
+    "solution": "",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 540
+  },
+  {
+    "_id": {
+      "$oid": "628264d81c19ea323233c514"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "62795278222bb418543eb5b4"
+    },
+    "content": "wait",
+    "point": 0,
+    "solution": "",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 300
+  },
+  {
+    "_id": {
+      "$oid": "62826a1dd63d66329d2cad50"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "6279d9095cc10b621211341c"
+    },
+    "content": "",
+    "point": 150,
+    "solution": "Cha0 mung Dh.SPKT tro`n 6o tuoi!",
+    "image": "speed up",
+    "year": "2023",
+    "timePeriod": 720
+  },
+  {
+    "_id": {
+      "$oid": "62826a79d63d66329d2cad51"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q1.png",
+    "point": 10,
+    "solution": "D",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a49cbcac9291c4a3a31cec"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "62a49bb3ac9291c4a3a31ce9"
+    },
+    "content": "",
+    "point": 150,
+    "solution": "",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 300
+  },
+  {
+    "_id": {
+      "$oid": "62a80ca7424c220e7f22b2a0"
+    },
+    "order": 2,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q2.png",
+    "point": 10,
+    "solution": "C",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80cbd424c220e7f22b2a1"
+    },
+    "order": 3,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q3.png",
+    "point": 10,
+    "solution": "B",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80ccc424c220e7f22b2a2"
+    },
+    "order": 4,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q4.png",
+    "point": 10,
+    "solution": "C",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80ce0424c220e7f22b2a3"
+    },
+    "order": 5,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q5.png",
+    "point": 10,
+    "solution": "B",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80d05424c220e7f22b2a4"
+    },
+    "order": 6,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q6.png",
+    "point": 10,
+    "solution": "B",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80d69424c220e7f22b2a6"
+    },
+    "order": 7,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q7.png",
+    "point": 10,
+    "solution": "A",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80d69424c220e7f22b2a7"
+    },
+    "order": 8,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q8.png",
+    "point": 10,
+    "solution": "A",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80d69424c220e7f22b2a8"
+    },
+    "order": 9,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q9.png",
+    "point": 10,
+    "solution": "C",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80d69424c220e7f22b2a9"
+    },
+    "order": 10,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q10.png",
+    "point": 10,
+    "solution": "D",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  }
+]

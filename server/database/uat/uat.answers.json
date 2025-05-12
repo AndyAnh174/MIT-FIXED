@@ -1,0 +1,1880 @@
+[{
+  "_id": {
+    "$oid": "648b5b9cb56e8ec0778797e7"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d455"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "D",
+  "result": "C",
+  "timeSubmit": 15090,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:42:36.092Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:42:36.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5b9eb56e8ec0778797fc"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d455"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "D",
+  "result": "C",
+  "timeSubmit": 17009,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:42:38.010Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:42:38.010Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5b9eb56e8ec07787980f"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d455"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "C",
+  "timeSubmit": 17048,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:42:38.049Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:42:38.049Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5b9fb56e8ec077879822"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d455"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "D",
+  "result": "C",
+  "timeSubmit": 18163,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:42:39.164Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:42:39.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5b9fb56e8ec077879835"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d455"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "C",
+  "timeSubmit": 18243,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:42:39.244Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:42:39.244Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bb7b56e8ec077879882"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d456"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "D",
+  "result": "B",
+  "timeSubmit": 14965,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:03.966Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:03.966Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bb9b56e8ec077879895"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d456"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "D",
+  "result": "B",
+  "timeSubmit": 16058,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:05.059Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:05.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bb9b56e8ec0778798a8"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d456"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "B",
+  "timeSubmit": 16925,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:05.926Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:05.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bbbb56e8ec0778798bd"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d456"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "B",
+  "timeSubmit": 17058,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:07.059Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:07.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bbbb56e8ec0778798d0"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d456"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "B",
+  "timeSubmit": 17205,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:07.205Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:07.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bd1b56e8ec07787991d"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d457"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "C",
+  "timeSubmit": 14523,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:29.524Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:29.524Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bd3b56e8ec077879932"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d457"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "C",
+  "timeSubmit": 16475,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:31.476Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:31.476Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bd3b56e8ec077879945"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d457"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "C",
+  "timeSubmit": 16586,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:31.587Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:31.587Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bd4b56e8ec077879958"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d457"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "C",
+  "timeSubmit": 17589,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:32.590Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:32.590Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bd4b56e8ec07787996b"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d457"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "C",
+  "timeSubmit": 17699,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:32.699Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:32.699Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5beab56e8ec0778799b8"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d458"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "C",
+  "timeSubmit": 14686,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:54.686Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:54.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bebb56e8ec0778799cb"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d458"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "C",
+  "timeSubmit": 15770,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:55.771Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:55.771Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5becb56e8ec0778799de"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d458"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "C",
+  "timeSubmit": 16632,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:56.633Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:56.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bedb56e8ec0778799f3"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d458"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "C",
+  "timeSubmit": 17715,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:57.716Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:57.716Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5bedb56e8ec077879a06"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d458"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "C",
+  "timeSubmit": 17815,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:43:57.816Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:43:57.816Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c0db56e8ec077879a53"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d459"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "D",
+  "timeSubmit": 14994,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:44:29.995Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:44:29.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c0fb56e8ec077879a68"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d459"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "D",
+  "result": "D",
+  "timeSubmit": 16942,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:44:31.942Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:44:31.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c11b56e8ec077879a7b"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d459"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "D",
+  "timeSubmit": 18092,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:44:33.092Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:44:33.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c11b56e8ec077879a8a"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d459"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "D",
+  "timeSubmit": 18117,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:44:33.117Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:44:33.117Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c13b56e8ec077879aa1"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d459"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "D",
+  "timeSubmit": 20132,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:44:35.133Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:44:35.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c2eb56e8ec077879aee"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45a"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "C",
+  "timeSubmit": 14303,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:45:02.305Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:45:02.305Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c2fb56e8ec077879b01"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45a"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "C",
+  "timeSubmit": 15458,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:45:03.458Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:45:03.458Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c30b56e8ec077879b16"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45a"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "C",
+  "timeSubmit": 16279,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:45:04.280Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:45:04.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c31b56e8ec077879b29"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45a"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "D",
+  "result": "C",
+  "timeSubmit": 17476,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:45:05.477Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:45:05.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c31b56e8ec077879b3c"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45a"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "C",
+  "timeSubmit": 17566,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:45:05.566Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:45:05.566Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c4eb56e8ec077879b89"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45b"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "C",
+  "timeSubmit": 14396,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:45:34.397Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:45:34.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c50b56e8ec077879b9e"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45b"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "C",
+  "timeSubmit": 16374,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:45:36.374Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:45:36.374Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c50b56e8ec077879bb1"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45b"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "D",
+  "result": "C",
+  "timeSubmit": 16483,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:45:36.483Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:45:36.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c51b56e8ec077879bc4"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45b"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "C",
+  "timeSubmit": 17500,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:45:37.501Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:45:37.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c51b56e8ec077879bd0"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45b"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "C",
+  "timeSubmit": 17521,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:45:37.521Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:45:37.521Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c6ab56e8ec077879c24"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45c"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "C",
+  "timeSubmit": 14275,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:02.275Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:02.275Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c6cb56e8ec077879c39"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45c"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "C",
+  "timeSubmit": 16360,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:04.361Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:04.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c6cb56e8ec077879c47"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45c"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "C",
+  "timeSubmit": 16380,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:04.380Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:04.380Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c6db56e8ec077879c5f"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45c"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "C",
+  "timeSubmit": 17299,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:05.299Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:05.299Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c6db56e8ec077879c72"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45c"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "C",
+  "timeSubmit": 17378,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:05.379Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:05.379Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c84b56e8ec077879cbf"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45d"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "D",
+  "timeSubmit": 15058,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:28.058Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:28.058Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c86b56e8ec077879cd4"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45d"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "D",
+  "timeSubmit": 17163,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:30.164Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:30.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c86b56e8ec077879ce2"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45d"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "D",
+  "timeSubmit": 17199,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:30.200Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:30.200Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c87b56e8ec077879cfa"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45d"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "D",
+  "timeSubmit": 18181,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:31.182Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:31.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c87b56e8ec077879d0d"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45d"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "C",
+  "result": "D",
+  "timeSubmit": 18231,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:31.232Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:31.232Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5c9eb56e8ec077879d5a"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45e"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "B",
+  "timeSubmit": 14393,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:54.394Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:54.394Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5ca0b56e8ec077879d6f"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45e"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "D",
+  "result": "B",
+  "timeSubmit": 16394,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:56.395Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:56.395Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5ca0b56e8ec077879d82"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45e"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "B",
+  "timeSubmit": 16550,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:56.550Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:56.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5ca1b56e8ec077879d95"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45e"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "A",
+  "result": "B",
+  "timeSubmit": 17594,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:57.594Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:57.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5ca1b56e8ec077879da8"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d45e"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d84a5cc10b621211341a"
+  },
+  "content": "B",
+  "result": "B",
+  "timeSubmit": 17643,
+  "point": 10,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:46:57.644Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:46:57.644Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5ce9b56e8ec077879e43"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d451"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6274c0a6e0313d4f9efed809"
+  },
+  "content": "[{\"id\":\"9\",\"content\":\"int tongchusomax(unsigned a[], int n) {\"},{\"id\":\"2\",\"content\":\"int max = 0, v = -1;\"},{\"id\":\"11\",\"content\":\"for (int i = 0; i < n; i++) {\"},{\"id\":\"6\",\"content\":\"int k = a[i], t = 0;\"},{\"id\":\"3\",\"content\":\"while (k) {\"},{\"id\":\"1\",\"content\":\"k /= 10;\"},{\"id\":\"4\",\"content\":\"if (t > max) { max = t; v = i; }\"},{\"id\":\"12\",\"content\":\"t += k % 10;\"},{\"id\":\"5\",\"content\":\"}\"},{\"id\":\"7\",\"content\":\"}\"},{\"id\":\"8\",\"content\":\"return v;\"},{\"id\":\"10\",\"content\":\"}\"}]",
+  "point": 70,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:48:09.795Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:50:44.594Z"
+  },
+  "__v": 0,
+  "result": "11111000011100000000000000"
+},
+{
+  "_id": {
+    "$oid": "648b5d16b56e8ec077879e4b"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d451"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6274c0a6e0313d4f9efed809"
+  },
+  "content": "[{\"id\":\"9\",\"content\":\"int tongchusomax(unsigned a[], int n) {\"},{\"id\":\"2\",\"content\":\"int max = 0, v = -1;\"},{\"id\":\"11\",\"content\":\"for (int i = 0; i < n; i++) {\"},{\"id\":\"6\",\"content\":\"int k = a[i], t = 0;\"},{\"id\":\"3\",\"content\":\"while (k) {\"},{\"id\":\"4\",\"content\":\"if (t > max) { max = t; v = i; }\"},{\"id\":\"12\",\"content\":\"t += k % 10;\"},{\"id\":\"1\",\"content\":\"k /= 10;\"},{\"id\":\"5\",\"content\":\"}\"},{\"id\":\"7\",\"content\":\"}\"},{\"id\":\"8\",\"content\":\"return v;\"},{\"id\":\"10\",\"content\":\"}\"}]",
+  "point": 70,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:48:54.953Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:50:52.851Z"
+  },
+  "__v": 0,
+  "result": "11111000011100000000000000"
+},
+{
+  "_id": {
+    "$oid": "648b5d74b56e8ec077879e8e"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d451"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6274c0a6e0313d4f9efed809"
+  },
+  "content": "[{\"id\":\"1\",\"content\":\"k /= 10;\"},{\"id\":\"2\",\"content\":\"int max = 0, v = -1;\"},{\"id\":\"3\",\"content\":\"while (k) {\"},{\"id\":\"4\",\"content\":\"if (t > max) { max = t; v = i; }\"},{\"id\":\"5\",\"content\":\"}\"},{\"id\":\"6\",\"content\":\"int k = a[i], t = 0;\"},{\"id\":\"7\",\"content\":\"}\"},{\"id\":\"8\",\"content\":\"return v;\"},{\"id\":\"9\",\"content\":\"int tongchusomax(unsigned a[], int n) {\"},{\"id\":\"10\",\"content\":\"}\"},{\"id\":\"11\",\"content\":\"for (int i = 0; i < n; i++) {\"},{\"id\":\"12\",\"content\":\"t += k % 10;\"}]",
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:50:28.134Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:51:00.322Z"
+  },
+  "__v": 0,
+  "result": "01000000010000000000000000"
+},
+{
+  "_id": {
+    "$oid": "648b5d74b56e8ec077879e96"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d451"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6274c0a6e0313d4f9efed809"
+  },
+  "content": "[{\"id\":\"9\",\"content\":\"int tongchusomax(unsigned a[], int n) {\"},{\"id\":\"2\",\"content\":\"int max = 0, v = -1;\"},{\"id\":\"11\",\"content\":\"for (int i = 0; i < n; i++) {\"},{\"id\":\"3\",\"content\":\"while (k) {\"},{\"id\":\"6\",\"content\":\"int k = a[i], t = 0;\"},{\"id\":\"12\",\"content\":\"t += k % 10;\"},{\"id\":\"4\",\"content\":\"if (t > max) { max = t; v = i; }\"},{\"id\":\"1\",\"content\":\"k /= 10;\"},{\"id\":\"5\",\"content\":\"}\"},{\"id\":\"7\",\"content\":\"}\"},{\"id\":\"8\",\"content\":\"return v;\"},{\"id\":\"10\",\"content\":\"}\"}]",
+  "point": 50,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:50:28.176Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:51:14.218Z"
+  },
+  "__v": 0,
+  "result": "11100100011100000000000000"
+},
+{
+  "_id": {
+    "$oid": "648b5d76b56e8ec077879e9e"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d451"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6274c0a6e0313d4f9efed809"
+  },
+  "content": "[{\"id\":\"1\",\"content\":\"k /= 10;\"},{\"id\":\"2\",\"content\":\"int max = 0, v = -1;\"},{\"id\":\"3\",\"content\":\"while (k) {\"},{\"id\":\"4\",\"content\":\"if (t > max) { max = t; v = i; }\"},{\"id\":\"5\",\"content\":\"}\"},{\"id\":\"6\",\"content\":\"int k = a[i], t = 0;\"},{\"id\":\"7\",\"content\":\"}\"},{\"id\":\"8\",\"content\":\"return v;\"},{\"id\":\"9\",\"content\":\"int tongchusomax(unsigned a[], int n) {\"},{\"id\":\"10\",\"content\":\"}\"},{\"id\":\"11\",\"content\":\"for (int i = 0; i < n; i++) {\"},{\"id\":\"12\",\"content\":\"t += k % 10;\"}]",
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:50:30.452Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:51:17.861Z"
+  },
+  "__v": 0,
+  "result": "01000000010000000000000000"
+},
+{
+  "_id": {
+    "$oid": "648b5dc7b56e8ec077879f91"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d454"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d9095cc10b621211341c"
+  },
+  "content": "alo",
+  "result": "000000000000000000000000000000",
+  "timeSubmit": 11527,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:51:51.528Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:52:52.538Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5dcab56e8ec077879f97"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d454"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d9095cc10b621211341c"
+  },
+  "content": "hjjjj",
+  "result": "000000000000000000000000000000",
+  "timeSubmit": 14257,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:51:54.258Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:52:52.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5dcdb56e8ec077879f9d"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d454"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d9095cc10b621211341c"
+  },
+  "content": "Hi",
+  "result": "100000000000000000000000000000",
+  "timeSubmit": 17106,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:51:57.107Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:52:52.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5de3b56e8ec077879fb6"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d454"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d9095cc10b621211341c"
+  },
+  "content": "",
+  "result": "000000000000000000000000000000",
+  "timeSubmit": 39996,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:52:19.996Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:52:52.568Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5df4b56e8ec077879fbe"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d454"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d9095cc10b621211341c"
+  },
+  "content": "Hh",
+  "result": "100000000000000000000000000000",
+  "timeSubmit": 56561,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:52:36.561Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:52:52.577Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5e96b56e8ec07787a066"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d452"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "6279d8e85cc10b621211341b"
+  },
+  "content": "#include<iostream> \nusing namespace std;\n\nint main() {\n\t//Your Code will come here\n\treturn 0;\n}\n",
+  "result": "00000000",
+  "timeSubmit": 125558,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:55:18.559Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:57:39.333Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5eadb56e8ec07787a06c"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d452"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "6279d8e85cc10b621211341b"
+  },
+  "content": "#include<iostream> \nusing namespace std;\n\nint main() {\n\t//Your Code will come here\n\treturn 0;\n}\n",
+  "result": "00000000",
+  "timeSubmit": 148788,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:55:41.790Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:57:42.017Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5eafb56e8ec07787a072"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d452"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "6279d8e85cc10b621211341b"
+  },
+  "content": "#include <stdio.h>\n\nint tinhTien(int a, char loai_xe) {\n    int gia_mo_cua, gia_km_25, gia_sau_km_25;\n\n    if (loai_xe == 'A') {\n        gia_mo_cua = 21000;\n        gia_km_25 = 15500;\n        gia_sau_km_25 = 12500;\n    } else if (loai_xe == 'B') {\n        gia_mo_cua = 20000;\n        gia_km_25 = 14000;\n        gia_sau_km_25 = 12000;\n    } else {\n        printf(\"Loại xe không hợp lệ!\\n\");\n        return -1;\n    }\n\n    int thanh_tien;\n    if (a <= 1) {\n        thanh_tien = gia_mo_cua;\n    } else if (a <= 25) {\n        thanh_tien = gia_mo_cua + (a - 1) * gia_km_25;\n    } else {\n        thanh_tien = gia_mo_cua + 24 * gia_km_25 + (a - 25) * gia_sau_km_25;\n    }\n\n    return thanh_tien;\n}\n\nint main() {\n    int a;\n    char loai_xe;\n\n    printf(\"Nhập số km đi: \");\n    scanf(\"%d\", &a);\n\n    printf(\"Nhập loại xe (A hoặc B): \");\n    scanf(\" %c\", &loai_xe);\n\n    int thanh_tien = tinhTien(a, loai_xe);\n\n    if (thanh_tien >= 0) {\n        printf(\"Số tiền phải thanh toán: %d\\n\", thanh_tien);\n    }\n\n    return 0;\n}",
+  "result": "00000000",
+  "timeSubmit": 150379,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:55:43.380Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:57:44.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5eb8b56e8ec07787a07a"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d452"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "6279d8e85cc10b621211341b"
+  },
+  "content": "#include<iostream> \nusing namespace std;\n\nint main() {\n\t//Your Code will come here\n\n\n",
+  "result": "00000000",
+  "timeSubmit": 159560,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:55:52.560Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:57:46.863Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5ebeb56e8ec07787a080"
+  },
+  "questionId": {
+    "$oid": "648b4548c7e36f144a83d452"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "6279d8e85cc10b621211341b"
+  },
+  "content": "#include<iostream> \nusing namespace std;\n\nint main() {\n\t//Your Code will come here\n\treturn 0;\n}\n",
+  "result": "00000000",
+  "timeSubmit": 165794,
+  "point": 0,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:55:58.795Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:57:49.549Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5f42b56e8ec07787a2b5"
+  },
+  "questionId": {
+    "$oid": "62a49cbcac9291c4a3a31cec"
+  },
+  "userId": {
+    "$oid": "6274ae54337a012bd77aed63"
+  },
+  "roundId": {
+    "$oid": "62a49bb3ac9291c4a3a31ce9"
+  },
+  "content": "",
+  "result": "100-10",
+  "point": 55,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:58:10.810Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:59:08.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5f42b56e8ec07787a2b8"
+  },
+  "questionId": {
+    "$oid": "62a49cbcac9291c4a3a31cec"
+  },
+  "userId": {
+    "$oid": "62a6e4d36b0818092a0ec49c"
+  },
+  "roundId": {
+    "$oid": "62a49bb3ac9291c4a3a31ce9"
+  },
+  "content": "",
+  "result": "90-30",
+  "point": 60,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:58:10.815Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:59:07.113Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5f42b56e8ec07787a2bb"
+  },
+  "questionId": {
+    "$oid": "62a49cbcac9291c4a3a31cec"
+  },
+  "userId": {
+    "$oid": "62a6e5026b0818092a0ec49d"
+  },
+  "roundId": {
+    "$oid": "62a49bb3ac9291c4a3a31ce9"
+  },
+  "content": "",
+  "result": "60-40",
+  "point": 50,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:58:10.820Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:59:01.625Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5f42b56e8ec07787a2be"
+  },
+  "questionId": {
+    "$oid": "62a49cbcac9291c4a3a31cec"
+  },
+  "userId": {
+    "$oid": "62a6e51e6b0818092a0ec49e"
+  },
+  "roundId": {
+    "$oid": "62a49bb3ac9291c4a3a31ce9"
+  },
+  "content": "",
+  "result": "20-60",
+  "point": 40,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:58:10.824Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:59:00.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648b5f42b56e8ec07787a2c1"
+  },
+  "questionId": {
+    "$oid": "62a49cbcac9291c4a3a31cec"
+  },
+  "userId": {
+    "$oid": "62a6e5316b0818092a0ec49f"
+  },
+  "roundId": {
+    "$oid": "62a49bb3ac9291c4a3a31ce9"
+  },
+  "content": "",
+  "result": "150-10",
+  "point": 80,
+  "status": 1,
+  "year": "2023",
+  "createdAt": {
+    "$date": "2023-06-15T18:58:10.828Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T18:59:00.356Z"
+  },
+  "__v": 0
+}]

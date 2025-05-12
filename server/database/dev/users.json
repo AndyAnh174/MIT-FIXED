@@ -1,0 +1,99 @@
+[
+  {
+    "_id": {
+      "$oid": "6274ae54337a012bd77aed63"
+    },
+    "username": "five_idiots",
+    "password": "mit2023@five_idiots",
+    "displayName": "Five Idiots",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1655205007081"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "627931a2680406929f6b3b56"
+    },
+    "username": "admin",
+    "password": "admin@123",
+    "displayName": "MIT ADMIN 2023",
+    "role": "admin",
+    "point": 0,
+    "status": 1,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a6e4d36b0818092a0ec49c"
+    },
+    "username": "tao_xam",
+    "password": "mit2023@tao_xam",
+    "displayName": "Táo xám",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1655205007094"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a6e5026b0818092a0ec49d"
+    },
+    "username": "may_rian",
+    "password": "mit2023@may_rian",
+    "displayName": "May Rian",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1655205007102"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a6e51e6b0818092a0ec49e"
+    },
+    "username": "the_bag",
+    "password": "mit2023@the_bag",
+    "displayName": "The Bag",
+    "role": "player",
+    "point": 168.6,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1655205007111"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a6e5316b0818092a0ec49f"
+    },
+    "username": "leopards",
+    "password": "mit2023@leopards",
+    "displayName": "Leopards",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1655205007121"
+      }
+    }
+  }
+]

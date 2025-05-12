@@ -1,0 +1,99 @@
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+  //padding: 20px 30px 10px 15px;
+
+  &>.timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0.4;
+
+    &>p {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 19px;
+      color: #ffffff;
+    }
+
+    &>.progressBar {
+      position: relative;
+      align-self: center;
+      height: 4px;
+      width: 299px;
+      border-radius: 10px;
+      background-color: rgba(229, 229, 229, 0.5);
+      background-image: linear-gradient(to right, white, white);
+      background-repeat: no-repeat;
+      background-position: left;
+      overflow: hidden;
+      transition: all 0.02s ease-in-out;
+      z-index: 0;
+      overflow: visible;
+
+      &::before {
+        position: absolute;
+        content: "";
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        background: white;
+        top: 50%;
+        left: var(--value);
+        z-index: 1;
+        transform: translateY(-50%) translateX(-50%);
+      }
+    }
+  }
+
+  &>.groupBtn {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-grow: 0.25;
+    justify-content: space-between;
+    background-color: rgba(196, 196, 196, 0.2);
+    border-radius: 10px;
+
+    &>.prevBtn {
+      width: 132px;
+      height: 50Px;
+      background: #888888;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #ffffff;
+      border: none;
+      background: #0088B2;
+    }
+
+    &>.startBtn {
+      width: 104px;
+      height: 50px;
+      background: #F98823;
+      ;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #ffffff;
+      border: none;
+    }
+
+    &>.nextBtn {
+      width: 132px;
+      height: 50px;
+      background: #0088B2;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #ffffff;
+      border: none;
+    }
+  }
+}

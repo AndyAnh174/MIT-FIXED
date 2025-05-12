@@ -1,0 +1,22 @@
+[
+  {
+    "_id": {
+      "$oid": "627bf82f601ca939830d600e"
+    },
+    "isStarted": 0,
+    "year": "2024",
+    "questionId": {
+      "$oid": "62a49cbcac9291c4a3a31cec"
+    },
+    "roundId": {
+      "$oid": "62a49bb3ac9291c4a3a31ce9"
+    },
+    "timeOut": {
+      "$date": "2023-06-15T19:02:13.479Z"
+    },
+    "timePeriod": 300,
+    "updatedAt": {
+      "$date": "2023-06-15T18:58:10.208Z"
+    }
+  }
+]

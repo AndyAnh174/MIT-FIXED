@@ -1,0 +1,415 @@
+.programming-round {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../../../public/assets/background-filter.png"),
+    linear-gradient(180deg, #004b66 0%, #01a99e 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+
+  & > .content {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    z-index: 1;
+    animation: scaleUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+      forwards;
+
+    & > .game-space {
+      display: flex;
+      flex-direction: column;
+      width: 1254px;
+      height: 870px;
+      padding: 10px;
+      background: #01395b;
+      box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 16px;
+      position: relative;
+      overflow: hidden;
+
+      & > .point {
+        width: 171px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 10px 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: #ffffff;
+        box-shadow: inset 0px 5px 4px rgba(0, 0, 0, 0.35);
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        /* identical to box height */
+
+        color: #912a3d;
+      }
+
+      & > .title {
+        position: absolute;
+        width: 503.6px;
+        height: 67.65px;
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        color: #ffffff;
+        padding-top: 15px;
+        z-index: 5;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 100%;
+          border-radius: 0 0 10px 10px;
+          background: #0c9b75;
+          z-index: -1;
+          transform: perspective(10px) rotateX(-1deg);
+        }
+      }
+
+      & > .compiler-space {
+        height: 707px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        & > .left {
+          width: 800px;
+          height: 100%;
+
+          & > .code {
+            width: 100%;
+            height: 100%;
+            background-image: url("../../../../public/assets/logo-long.png"),
+              linear-gradient(180deg, white 0%, white 100%);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 10px;
+            background-size: contain;
+
+            & .monaco-editor {
+              background: transparent;
+              background-color: transparent;
+
+              & .monaco-editor,
+              .margin {
+                background: transparent;
+                background-color: transparent;
+              }
+
+              & .monaco-editor,
+              .monaco-editor-background {
+                background: transparent;
+                background-color: transparent;
+              }
+            }
+          }
+        }
+
+        & > .right {
+          flex-grow: 1;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding-left: 10px;
+
+          & > .card {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+
+            &.input-card {
+              background: #c44c8e;
+              border: 2px solid #c44c8e;
+              border-radius: 10px;
+            }
+
+            &.output-card {
+              background: #f98823;
+              border: 2px solid #f98823;
+              border-radius: 10px;
+            }
+
+            & > .title {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 24px;
+              margin: 5px;
+              color: #ffffff;
+            }
+
+            & > .text-space {
+              flex-grow: 1;
+              border-radius: 10px;
+              background: white;
+              position: relative;
+
+              & > textarea {
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                position: relative;
+                z-index: 2;
+                stroke: none;
+                border: none;
+                resize: none;
+                outline: none;
+                overflow-y: auto;
+                overflow-x: auto;
+                border-radius: 10px;
+                padding: 7px;
+                font-family: Consolas;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+
+                &:active,
+                &:focus {
+                  stroke: none;
+                  border: none;
+                }
+              }
+
+              &::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 100%;
+                height: 100%;
+                background-image: url("../../../../public/assets/logo-long.png"),
+                  linear-gradient(180deg, white 0%, white 100%);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 80%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+              }
+            }
+          }
+
+          & > .controllers {
+            height: 58px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 5px 0px;
+            transform: translateY(2px);
+
+            & > button {
+              height: 38px;
+              width: 32%;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 19px;
+              align-items: center;
+              text-align: center;
+
+              /* white */
+
+              color: #ffffff;
+            }
+
+            & > .btn-clear {
+              background: #dd2e44;
+            }
+
+            & > .btn-debug {
+              background: #2dbbc8;
+            }
+
+            & > .btn-run {
+              background: #0c9b75;
+            }
+          }
+        }
+      }
+
+      & > .footer {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        transform: translateY(4px);
+
+        & > .time-out {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 28px;
+          line-height: 47px;
+          color: #ffffff;
+          margin-bottom: 5px;
+        }
+
+        & > button {
+          height: 38px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          align-items: center;
+          text-align: center;
+          padding: 5px 10px;
+          color: #ffffff;
+
+          & > svg {
+            margin-right: 5px;
+          }
+
+          &.btn-stop-turn:enabled {
+            background: #dd2e44;
+          }
+
+          &.btn-view-subject:enabled {
+            background: #c44c8e;
+          }
+        }
+      }
+
+      & > .notification-modal {
+        & > .modal-background {
+          background: rgba(0, 0, 0, 0.8);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & > .modal {
+            background: #ffffff;
+            box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            padding: 20px;
+
+            & > .title {
+              font-style: normal;
+              font-weight: 700;
+              font-size: 32px;
+              color: #01395b;
+            }
+
+            & > .description {
+              font-style: normal;
+              font-weight: 400;
+              font-size: 24px;
+              color: #01395b;
+              margin: 10px;
+            }
+
+            & > .btn-new-turn {
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 19px;
+              display: flex;
+              color: #ffffff;
+              padding: 15px 25px;
+              margin-top: 10px;
+
+              &:enabled {
+                background: #0c9b75;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  & > .subject-modal {
+    & > .modal-background {
+      background: linear-gradient(
+        180deg,
+        rgba(19, 19, 19, 0) 0%,
+        #131313 44.79%
+      );
+      display: flex;
+      flex-direction: column-reverse;
+
+      & > .modal {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: #c44c8e;
+        border-radius: 10px;
+
+        & > .header {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+
+          & > .title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 35px;
+            color: #ffffff;
+          }
+
+          & > .back {
+            cursor: pointer;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #ffffff;
+          }
+        }
+
+        & > .subject-container {
+          width: 100%;
+          height: 608px;
+          border-radius: 10px;
+          overflow: hidden;
+          position: relative;
+          background-color: white;
+          background-image: url("../../../../public/assets/logo-long.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 80%;
+
+          & > .subject {
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            z-index: 2;
+          }
+        }
+      }
+    }
+  }
+}

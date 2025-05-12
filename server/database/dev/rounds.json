@@ -1,0 +1,56 @@
+[
+  {
+    "_id": {
+      "$oid": "6274c0a6e0313d4f9efed809"
+    },
+    "name": "connection",
+    "lawUrl": "",
+    "pointBonus": 150,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "62795278222bb418543eb5b4"
+    },
+    "name": "wait",
+    "lawUrl": "",
+    "pointBonus": 0,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "name": "warm-up",
+    "lawUrl": "",
+    "pointBonus": 0,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6279d8e85cc10b621211341b"
+    },
+    "name": "programming",
+    "lawUrl": "",
+    "pointBonus": 0,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6279d9095cc10b621211341c"
+    },
+    "name": "speed-up",
+    "lawUrl": "",
+    "pointBonus": 0,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "62a49bb3ac9291c4a3a31ce9"
+    },
+    "name": "sort",
+    "lawUrl": "",
+    "pointBonus": 0,
+    "year": "2023"
+  }
+]

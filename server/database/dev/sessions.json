@@ -1,0 +1,26 @@
+[
+  {
+    "_id": {
+      "$oid": "627bf82f601ca939830d600e"
+    },
+    "isStarted": 0,
+    "year": "2023",
+    "questionId": {
+      "$oid": "62a49cbcac9291c4a3a31cec"
+    },
+    "roundId": {
+      "$oid": "62a49bb3ac9291c4a3a31ce9"
+    },
+    "timeOut": {
+      "$date": {
+        "$numberLong": "1655199161180"
+      }
+    },
+    "timePeriod": 300,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1655200359816"
+      }
+    }
+  }
+]

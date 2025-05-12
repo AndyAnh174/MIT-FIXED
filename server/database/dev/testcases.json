@@ -1,0 +1,58 @@
+[
+  {
+    "order": 1,
+    "input": "14 6 2022",
+    "output": "15 6 2022",
+    "year": "2023",
+    "point": 20
+  },
+  {
+    "order": 2,
+    "input": "32 1 2022",
+    "output": "0",
+    "year": "2023",
+    "point": 20
+  },
+  {
+    "order": 3,
+    "input": "31 12 2021",
+    "output": "1 1 2022",
+    "year": "2023",
+    "point": 20
+  },
+  {
+    "order": 4,
+    "input": "17 B",
+    "output": "244.000",
+    "year": "2023",
+    "point": 20
+  },
+  {
+    "order": 5,
+    "input": "25 A",
+    "output": "393.000",
+    "year": "2023",
+    "point": 20
+  },
+  {
+    "order": 6,
+    "input": "25 B",
+    "output": "356.000",
+    "year": "2023",
+    "point": 20
+  },
+  {
+    "order": 7,
+    "input": "27 B",
+    "output": "380.000",
+    "year": "2023",
+    "point": 20
+  },
+  {
+    "order": 8,
+    "input": "450 A",
+    "output": "5.705.500",
+    "year": "2023",
+    "point": 20
+  }
+]

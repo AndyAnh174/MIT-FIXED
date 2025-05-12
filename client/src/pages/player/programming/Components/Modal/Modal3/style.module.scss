@@ -1,0 +1,105 @@
+.container {
+  opacity: 0;
+  position: absolute;
+  width: 1280px;
+  height: 892px;
+  background: rgba(3, 3, 3, 0.5);
+  border-radius: 10px 10px 0px 0px;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%, 15%);
+  z-index: 4;
+  animation: modal 1s ease-in-out forwards;
+  &>.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:510px;
+    height: 220px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    & >.title {
+      width: 520px;
+      height: 45.85px;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      color: #01395B;
+      margin-top: 20px;
+    }
+
+    & >.sub_title {
+      width: 440px;
+      height: 34.1px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      color: #01395B;
+      margin-top: 15px;
+    }
+
+    & >.btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+      margin: 20px;
+
+      & >.btn_left, & >.btn_right {
+        width: 151px;
+        height: 37px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+        box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 6px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      & >.btn_left {
+        background: #DD2E44;
+        
+      }
+      & >.btn_right {
+        background: #0C9B75;
+        box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 6px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+
+@keyframes modal {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

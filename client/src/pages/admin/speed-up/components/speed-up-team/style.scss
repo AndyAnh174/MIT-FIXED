@@ -1,0 +1,121 @@
+.speed-up-team {
+  width: 1128px;
+  height: 86px;
+  background: #ab81c07f;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  animation: move-in-left 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  & > .name-display {
+    position: relative;
+    width: 207px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+
+    &::before {
+      content: var(--time-submit);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 24px;
+      color: #ffffff7f;
+      position: absolute;
+      left: 0;
+      top: -55px;
+    }
+  }
+
+  & > .answer-content {
+    width: 631px;
+    height: 57px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > p {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 30px;
+      color: #00000043;
+
+      & > .success {
+        color: #0c9b75;
+      }
+
+      & > .fail {
+        color: #f9566a;
+      }
+    }
+  }
+
+  & > .result {
+    width: 50px;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+
+    &::before {
+      position: absolute;
+      content: "KÍ TỰ ĐÚNG";
+      width: 89px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      color: #ffffff;
+      text-align: center;
+      opacity: 0.5;
+      left: 50%;
+      top: -50px;
+      transform: translateX(-50%);
+    }
+
+    & > span {
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+
+  & > .point {
+    width: 80px;
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #ffffff;
+
+    &::before {
+      position: absolute;
+      content: "ĐIỂM";
+      width: 89px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      color: #ffffff;
+      text-align: center;
+      opacity: 0.5;
+      left: 50%;
+      top: -45px;
+      transform: translateX(-50%);
+    }
+  }
+}

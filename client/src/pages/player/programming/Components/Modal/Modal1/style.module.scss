@@ -1,0 +1,93 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: 922px;
+  margin: 0 auto;
+  opacity: 0;
+  z-index: 3;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(19, 19, 19, 0) 0%, #131313 44.79%);
+  animation: appear_from_below 1s ease-in-out forwards;
+  &> .bg {
+    position: absolute;
+    bottom: 0;
+    width: 1280px;
+    height: 683px;
+    background: #C44C8E;
+    border-radius: 10px;
+    & >.bg_white {
+      position: absolute;
+      width: 1280px;
+      height: 608px;
+      bottom: 0;
+      border-radius: 10px 10px 0px 0px;
+      background-color: #FFFFFF;
+      & >.logo {
+        position: absolute;
+        height: 300px;
+        width: 773px;
+        display: inline-block;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        background-image: url("../../../../../../../public/assets/logo-long.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+      } 
+    }
+    & >.text_btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 20px;
+      margin-top: 20px;
+      color: #FFFFFF;
+      & >.text {
+        font-family: 'Be Vietnam';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        display: flex;
+        align-items: center;
+        transform: translateY(-7px);
+      }
+      & >.btn {
+        height: 50px;
+        width: 155px;
+        left: 0px;
+        border-radius: 10px;
+        background: #0C9B75;
+        box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25), inset 0px -4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+.hidden {
+}
+
+@keyframes appear_from_below {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-955px);
+  }
+}

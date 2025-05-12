@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  &>.name {
+    width: 219px;
+    height: 50px;
+    background: #2DBBC8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    &>.txtName {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+     
+      color: #FFFFFF;
+      margin-left: 10px;
+    }
+  }
+  &>.answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 15px;
+    &>.txtAnswer {
+      position: absolute;
+      width: 20px;
+      height: 29px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #FFFFFF;
+      z-index: 3;
+    }
+    &>.sub_container {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #FFFFFF;
+      border-radius: 10px;  
+      &>.icon {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        &>.icon1 {
+          position: absolute;
+          width: 6.78px;
+          height: 22.11px;
+          left: 9px;
+          top: 14px;
+          background: #0C8C6A;
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 6px;
+          transform: rotate(-41.42deg);
+        }
+        &>.icon2{
+          position: absolute;
+          width: 6.78px;
+          height: 31.52px;
+          left: 23px;
+          top: 6px;
+          background: #0C8C6A;
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 6px;
+          transform: rotate(45.47deg);
+        }
+        &>.icon1_f, .icon2_f {
+          position: absolute;
+          width: 6.78px;
+          height: 38.18px;
+          left: 17px;
+          top: 1px;
+          background: #ee5a6e;
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 6px;
+        }
+        &>.icon1_f {
+          transform: rotate(45deg);
+        }
+        &>.icon2_f {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,48 @@
+.player__waiting-room {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../../../public/assets/background-filter.png"),
+    linear-gradient(180deg, #280066 0%, #dd2e44 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+
+  &::after {
+    content: "WAITING ROOM";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 155px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  & > .players {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > .player {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      color: #ffffff;
+      transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      animation: zoomIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+        forwards;
+      margin: 15px 0px;
+    }
+  }
+}

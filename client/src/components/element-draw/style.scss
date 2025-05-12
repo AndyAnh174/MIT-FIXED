@@ -1,0 +1,336 @@
+.element-drawable {
+  position: absolute;
+  transition: all 0.02s ease-in-out;
+  z-index: 1;
+  user-select: none;
+  cursor: grab;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  &.rect {
+    height: var(--height);
+    width: var(--width);
+    padding: 5px;
+    background-color: #0c8c6a;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    z-index: 2;
+  }
+
+  &.oval {
+    height: var(--height);
+    width: var(--width);
+    padding: 5px;
+
+    background-color: #c92e4b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+  &.para {
+    height: var(--height);
+    width: var(--width);
+    padding: 5px;
+
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      transform: skew(20deg) scale(0.8, 1);
+      background: #2dbbc8;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      border: 2px solid transparent;
+    }
+
+    & > div {
+      position: relative;
+      z-index: 3;
+    }
+  }
+
+  &.diam {
+    height: var(--height);
+    width: var(--width);
+    padding: 5px;
+
+    z-index: 2;
+    box-sizing: border-box;
+    background-image: url("../../assets/svg/diamond-background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: var(--width) var(--height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    & > div {
+      position: relative;
+      z-index: 3;
+      // transform: scaleY(2) scaleX(calc(4 / 3)) translateY(75%);
+    }
+  }
+
+  &.line-horizontal {
+    height: 4px;
+    width: var(--width);
+    background: #a4a4a4;
+
+    &.true {
+      background: #0c8c6a;
+    }
+
+    &.false {
+      background: #c92e4b;
+    }
+
+    &.arrow-left {
+      &::after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 10px solid #a4a4a4;
+        position: absolute;
+        right: -8px;
+        top: -6px;
+      }
+
+      &.true {
+        background: #0c8c6a;
+        &::before {
+          position: absolute;
+          content: "Đ";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          bottom: 5px;
+          left: 5px;
+
+          color: #0c8c6a;
+        }
+
+        &::after {
+          border-left: 10px solid #0c8c6a;
+        }
+      }
+
+      &.false {
+        &::before {
+          position: absolute;
+          content: "S";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          bottom: 5px;
+          left: 5px;
+
+          color: #c92e4b;
+        }
+
+        &::after {
+          border-left: 10px solid #c92e4b;
+        }
+      }
+    }
+
+    &.arrow-right {
+      &::after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-right: 10px solid #a4a4a4;
+        position: absolute;
+        left: -8px;
+        top: -6px;
+      }
+
+      &.true {
+        &::before {
+          position: absolute;
+          content: "Đ";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          bottom: 5px;
+          right: 5px;
+
+          color: #0c8c6a;
+        }
+
+        &::after {
+          border-right: 10px solid #0c8c6a;
+        }
+      }
+
+      &.false {
+        background: #c92e4b;
+
+        &::before {
+          position: absolute;
+          content: "S";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          bottom: 5px;
+          right: 5px;
+
+          color: #c92e4b;
+        }
+
+        &::after {
+          border-right: 10px solid #c92e4b;
+        }
+      }
+    }
+  }
+
+  &.line-vertical {
+    width: 4px;
+    height: var(--height);
+    background: #a4a4a4;
+
+    &.true {
+      background: #0c8c6a;
+    }
+
+    &.false {
+      background: #c92e4b;
+    }
+
+    &.arrow-up {
+      &::after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 10px solid #a4a4a4;
+        position: absolute;
+        top: -8px;
+        right: -6px;
+      }
+
+      &.true {
+        background: #0c8c6a;
+        &::before {
+          position: absolute;
+          content: "Đ";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          left: 10px;
+          bottom: 5px;
+
+          color: #0c8c6a;
+        }
+
+        &::after {
+          border-bottom: 10px solid #0c8c6a;
+        }
+      }
+
+      &.false {
+        &::before {
+          position: absolute;
+          content: "S";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          left: 10px;
+          bottom: 5px;
+
+          color: #c92e4b;
+        }
+
+        &::after {
+          border-bottom: 10px solid #c92e4b;
+        }
+      }
+    }
+
+    &.arrow-down {
+      &::after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 10px solid #a4a4a4;
+        position: absolute;
+        bottom: -8px;
+        right: -6px;
+      }
+
+      &.true {
+        &::before {
+          position: absolute;
+          content: "Đ";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          top: 5px;
+          right: 10px;
+
+          color: #0c8c6a;
+        }
+
+        &::after {
+          border-top: 10px solid #0c8c6a;
+        }
+      }
+
+      &.false {
+        background: #c92e4b;
+
+        &::before {
+          position: absolute;
+          content: "S";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          top: 5px;
+          right: 10px;
+
+          color: #c92e4b;
+        }
+
+        &::after {
+          border-top: 10px solid #c92e4b;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+.result-display {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #570280;
+  border-radius: 10px;
+  padding: 10px;
+  top: 100%;
+  left: 0;
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+  &.show {
+    top: 0;
+  }
+
+  & > .list-answers {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 590px;
+    // overflow-x: hidden;
+  }
+
+  & > .footer {
+    width: 1128px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    & > .solution-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      & > .title {
+        width: 265px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #ffffff;
+      }
+
+      & > .solution {
+        width: 631px;
+        height: 51px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #0c9b75;
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #ffffff;
+        padding: 10px 0;
+
+        & > p {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+
+    & > .btn-exit {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      color: #ffffff;
+      height: 50px;
+      width: 104px;
+      transform: translateY(3px);
+
+      &:enabled {
+        background: #f98823;
+      }
+    }
+
+    & > .btn-calc-point {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      color: #ffffff;
+      height: 50px;
+      width: 104px;
+      transform: translateY(3px);
+
+      &:enabled {
+        background: #c44c8e;
+      }
+    }
+  }
+}

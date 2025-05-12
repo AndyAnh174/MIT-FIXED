@@ -1,0 +1,101 @@
+#modal-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  z-index: 2;
+
+  &.show {
+    transform: scale(1);
+
+    & > .modal-background {
+      // background: rgba(0, 0, 0, 0);
+      animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+        forwards;
+
+      & > .modal {
+        opacity: 0;
+        animation: scaleUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+          forwards;
+      }
+    }
+
+    + #content.content {
+      animation: scaleBack 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+        forwards;
+    }
+
+    &.out {
+      animation: quickScaleDown 0s 0.5s linear forwards;
+
+      & > .modal-background {
+        animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+          forwards;
+
+        & > .modal {
+          animation: scaleDown 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+            forwards;
+        }
+      }
+
+      + #content.content {
+        animation: scaleForward 0.5s
+          cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+      }
+    }
+  }
+
+  .modal-background {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > .modal {
+      background: #ffffff;
+      box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px;
+
+      & > .title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        color: #01395b;
+      }
+
+      & > .description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        color: #01395b;
+        margin: 10px;
+      }
+
+      & > .btn-close {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        padding: 15px 25px;
+        margin-top: 10px;
+
+        &:enabled {
+          background: var(--background-color);
+        }
+      }
+    }
+  }
+}

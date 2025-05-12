@@ -1,0 +1,252 @@
+[
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5424"
+    },
+    "type": "oval",
+    "content": "Start",
+    "width": 100,
+    "height": 50,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5425"
+    },
+    "type": "line-vertical arrow-down",
+    "content": "",
+    "width": 0,
+    "height": 56,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5426"
+    },
+    "type": "para",
+    "content": "Nhập<br>a, b, c",
+    "width": 100,
+    "height": 50,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5427"
+    },
+    "type": "line-vertical arrow-down",
+    "content": "",
+    "width": 0,
+    "height": 60,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5428"
+    },
+    "type": "diam",
+    "content": "a==0",
+    "width": 70,
+    "height": 70,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5429"
+    },
+    "type": "line-horizontal arrow-right false",
+    "content": "",
+    "width": 53,
+    "height": 0,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c542a"
+    },
+    "type": "rect",
+    "content": "x=-c/b",
+    "width": 100,
+    "height": 50,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c542b"
+    },
+    "type": "line-horizontal arrow-right",
+    "content": "",
+    "width": 58,
+    "height": 0,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c542c"
+    },
+    "type": "para",
+    "content": "print(x)",
+    "width": 100,
+    "height": 50,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c542d"
+    },
+    "type": "line-vertical",
+    "content": "",
+    "width": 0,
+    "height": 343,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c542e"
+    },
+    "type": "line-horizontal arrow-left",
+    "content": "",
+    "width": 194,
+    "height": 0,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c542f"
+    },
+    "type": "line-horizontal arrow-left true",
+    "content": "",
+    "width": 52,
+    "height": 0,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5430"
+    },
+    "type": "rect",
+    "content": "Delta=b*b-4a*c",
+    "width": 150,
+    "height": 50,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5431"
+    },
+    "type": "line-vertical arrow-down",
+    "content": "",
+    "width": 0,
+    "height": 79,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5432"
+    },
+    "type": "diam",
+    "content": "a==0",
+    "width": 70,
+    "height": 70,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5433"
+    },
+    "type": "line-vertical arrow-down true",
+    "content": "",
+    "width": 0,
+    "height": 62,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5434"
+    },
+    "type": "rect",
+    "content": "Phương trình vô nghiệm",
+    "width": 200,
+    "height": 50,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5435"
+    },
+    "type": "line-vertical",
+    "content": "",
+    "width": 0,
+    "height": 97,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5436"
+    },
+    "type": "line-horizontal arrow-right",
+    "content": "",
+    "width": 177,
+    "height": 0,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5437"
+    },
+    "type": "line-horizontal arrow-left false",
+    "content": "",
+    "width": 84,
+    "height": 0,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5438"
+    },
+    "type": "rect",
+    "content": "x1=(-b+sqrt(Delta))/2a x2=(-b-sqrt(Delta))/2a",
+    "width": 200,
+    "height": 50,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c5439"
+    },
+    "type": "line-vertical arrow-down",
+    "content": "",
+    "width": 0,
+    "height": 64,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c543a"
+    },
+    "type": "para",
+    "content": "print(x1,x2)",
+    "width": 126,
+    "height": 50,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c543b"
+    },
+    "type": "line-vertical arrow-down",
+    "content": "",
+    "width": 0,
+    "height": 74,
+    "year": "2023"
+  },
+  {
+    "_id": {
+      "$oid": "6274d967d2f67e47f33c543c"
+    },
+    "type": "oval",
+    "content": "Start",
+    "width": 100,
+    "height": 50,
+    "year": "2023"
+  }
+]

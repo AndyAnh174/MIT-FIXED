@@ -1,0 +1,143 @@
+.container {
+  width: 1200px;
+  height: 729px;
+  left: 50px;
+  top: 132px;
+  background: #00386b;
+  box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 29px auto;
+  padding-bottom: 30px;
+}
+
+.title {
+  width: 528.5px;
+  height: 71px;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 100px;
+}
+.title::after {
+  content: "";
+  width: 528.5px;
+  height: 71px;
+  border-radius: 0 0 10px 10px;
+  background-color: #00274b;
+  transform-style: preserve-3d;
+  transform: rotateX(-10deg) scale(0.94);
+  position: absolute;
+  z-index: -1;
+}
+
+.score {
+  width: 171px;
+  height: 68px;
+  margin-top: -41px;
+  margin-left: 36px;
+
+  background: #ffffff;
+  box-shadow: inset 0px 5px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #00386b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question {
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 47px;
+  margin-top: -20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5debf8;
+  text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  position: relative;
+  width: 1174px;
+  height: 584px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0px 2px 0px rgb(0 0 0 / 15%), 0px 6px 0px white,
+    0px 8px 0px rgb(0 0 0 / 15%), 0px 12px 0px white,
+    0px 14px 0px rgb(0 0 0 / 15%), 0px 18px 0px white,
+    0px 20px 0px rgb(0 0 0 / 15%);
+}
+
+.logo {
+  position: absolute;
+  width: 1026px;
+  height: 396px;
+  opacity: 0.85;
+  background-image: url("../../../../../../public/assets/logo-long.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.keychains {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.keychains_left,
+.keychains_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keychains_right {
+  transform: translate(-35%, -50%);
+}
+
+.keychains_left {
+  transform: translate(35%, -50%);
+}
+
+.keychain {
+  width: 16px;
+  height: 51px;
+  background: #0b64b6;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+
+.card {
+  margin-top: -36px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

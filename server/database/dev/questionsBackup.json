@@ -1,0 +1,167 @@
+[
+  {
+    "_id": {
+      "$oid": "62a5accda771a6c0174b169e"
+    },
+    "isActive": 1,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/backup/round01_warmup/B1.png",
+    "point": 10,
+    "solution": "B",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a5c09aa771a6c0174b16c8"
+    },
+    "roundId": {
+      "$oid": "6274c0a6e0313d4f9efed809"
+    },
+    "content": "Backup Đề mẫu",
+    "point": 150,
+    "solution": "",
+    "image": "[{\"type\":\"oval\",\"content\":\"Backup\",\"width\":100,\"height\":50},{\"type\":\"line-vertical arrow-down\",\"content\":\"\",\"width\":0,\"height\":56},{\"type\":\"para\",\"content\":\"Nhập<br>a, b, c\",\"width\":100,\"height\":50},{\"type\":\"line-vertical arrow-down\",\"content\":\"\",\"width\":0,\"height\":60},{\"type\":\"diam\",\"content\":\"a==0\",\"width\":70,\"height\":70},{\"type\":\"line-horizontal arrow-right false\",\"content\":\"\",\"width\":53,\"height\":0},{\"type\":\"rect\",\"content\":\"x=-c/b\",\"width\":100,\"height\":50},{\"type\":\"line-horizontal arrow-right\",\"content\":\"\",\"width\":58,\"height\":0},{\"type\":\"para\",\"content\":\"print(x)\",\"width\":100,\"height\":50},{\"type\":\"line-vertical\",\"content\":\"\",\"width\":0,\"height\":343},{\"type\":\"line-horizontal arrow-left\",\"content\":\"\",\"width\":194,\"height\":0},{\"type\":\"line-horizontal arrow-left true\",\"content\":\"\",\"width\":52,\"height\":0},{\"type\":\"rect\",\"content\":\"Delta=b*b-4a*c\",\"width\":150,\"height\":50},{\"type\":\"line-vertical arrow-down\",\"content\":\"\",\"width\":0,\"height\":79},{\"type\":\"diam\",\"content\":\"a==0\",\"width\":70,\"height\":70},{\"type\":\"line-vertical arrow-down true\",\"content\":\"\",\"width\":0,\"height\":62},{\"type\":\"rect\",\"content\":\"Phương trình vô nghiệm\",\"width\":200,\"height\":50},{\"type\":\"line-vertical\",\"content\":\"\",\"width\":0,\"height\":97},{\"type\":\"line-horizontal arrow-right\",\"content\":\"\",\"width\":177,\"height\":0},{\"type\":\"line-horizontal arrow-left false\",\"content\":\"\",\"width\":84,\"height\":0},{\"type\":\"rect\",\"content\":\"x1=(-b+sqrt(Delta))/2a x2=(-b-sqrt(Delta))/2a\",\"width\":200,\"height\":50},{\"type\":\"line-vertical arrow-down\",\"content\":\"\",\"width\":0,\"height\":64},{\"type\":\"para\",\"content\":\"print(x1,x2)\",\"width\":126,\"height\":50},{\"type\":\"line-vertical arrow-down\",\"content\":\"\",\"width\":0,\"height\":74},{\"type\":\"oval\",\"content\":\"End\",\"width\":100,\"height\":50}]",
+    "year": "2023",
+    "timePeriod": 300,
+    "isActive": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a5ce2fa771a6c0174b16f6"
+    },
+    "roundId": {
+      "$oid": "6279d9095cc10b621211341c"
+    },
+    "content": "",
+    "point": 150,
+    "solution": "Cha0 mung Dh.SPKT tro`n 6o tuoi!",
+    "image": "speed up",
+    "year": "2023",
+    "timePeriod": 720,
+    "isActive": 1
+  },
+  {
+    "_id": {
+      "$oid": "62a5d683a771a6c0174b1716"
+    },
+    "roundId": {
+      "$oid": "6279d8e85cc10b621211341b"
+    },
+    "content": "/api/files/backup/round04_programming/B1.png",
+    "point": 200,
+    "solution": "",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 540,
+    "isActive": 1
+  },
+  {
+    "_id": {
+      "$oid": "62a6c47db0f58943c56f4306"
+    },
+    "roundId": {
+      "$oid": "6279d9095cc10b621211341c"
+    },
+    "content": "/api/files/backup/round03_speedup/B2.png",
+    "point": 150,
+    "solution": "81`nH Ti~Nh chI3n tHa)'n9",
+    "image": "speed up",
+    "year": "2023",
+    "timePeriod": 300,
+    "isActive": 1
+  },
+  {
+    "_id": {
+      "$oid": "62a80e9b424c220e7f22b2b0"
+    },
+    "isActive": 1,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/backup/round01_warmup/B2.png",
+    "point": 10,
+    "solution": "B",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80e9b424c220e7f22b2b1"
+    },
+    "isActive": 1,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/backup/round01_warmup/B3.png",
+    "point": 10,
+    "solution": "C",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80e9b424c220e7f22b2b2"
+    },
+    "isActive": 1,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/backup/round01_warmup/B4.png",
+    "point": 10,
+    "solution": "C",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80e9b424c220e7f22b2b3"
+    },
+    "isActive": 1,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/backup/round01_warmup/B5.png",
+    "point": 10,
+    "solution": "C",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80e9b424c220e7f22b2b4"
+    },
+    "isActive": 1,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/backup/round01_warmup/B6.png",
+    "point": 10,
+    "solution": "D",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "62a80e9b424c220e7f22b2b5"
+    },
+    "isActive": 1,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/backup/round01_warmup/B7.png",
+    "point": 10,
+    "solution": "A",
+    "image": "",
+    "year": "2023",
+    "timePeriod": 16
+  }
+]

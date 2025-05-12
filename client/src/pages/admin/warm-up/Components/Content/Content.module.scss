@@ -1,0 +1,175 @@
+.container {
+  position: relative;
+  margin: 100px auto;
+  width: 1222px;
+  height: 720px;
+  background: #00386B;
+  box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  &>.left {
+    position: absolute;
+    width: 907.89px;
+    height: 439.78px;
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.25);
+    margin: 0 15px;
+    border-radius: 10px;
+    & >.title {
+      width: 408.71px;
+      height: 54.91px;
+      display: inline-block;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      perspective: 100px;
+    }
+    & >.title::after {
+      content: "";
+      width: 408.71px;
+      height: 54.91px;
+      border-radius: 0 0 10px 10px;
+      background-color: #00274b;
+      transform-style: preserve-3d;
+      transform: rotateX(-10deg) scale(0.94);
+      position: absolute;
+      z-index: -1;
+    }
+    &>.scoreLeft, .scoreRight {
+      width: 132.24px;
+      height: 52.59px;
+      margin-top: -10px;
+      margin-left: 36px;
+    
+      background: #ffffff;
+      box-shadow: inset 0px 5px 4px rgba(0, 0, 0, 0.35);
+      border-radius: 10px;
+    
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #00386b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &>.scoreRight {
+      position: absolute;
+      right: 0;
+      transform: translate(-45px, -42px);
+    }
+    & >.selectRoundBtn {
+      width: 153px;
+      height: 40px;
+      border-radius: 10px;
+      color: #fff;
+      background: #0088B2;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content:space-evenly;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      margin: 0 auto;
+    }
+    &>.content {
+      position: relative;
+      width: 907.89px;
+      height: 439.78px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 10px;
+      margin-top: 10px;
+      box-shadow: 0px 2px 0px rgb(0 0 0 / 15%), 0px 6px 0px white, 0px 8px 0px rgb(0 0 0 / 15%), 0px 12px 0px white, 0px 14px 0px rgb(0 0 0 / 15%), 0px 18px 0px white, 0px 20px 0px rgb(0 0 0 / 15%); 
+      &>.logo {
+        position: absolute;
+        width: 793.44px;
+        height: 306.24px;
+        opacity: 0.85;
+        background-image: url("../../../../../../public/assets/logo-long.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        display: inline-block;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &>.keychains {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        &>.keychains_left,
+        &>.keychains_right {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &>.keychain {
+            width: 16px;
+            height: 51px;
+            background: #0b64b6;
+            border-radius: 20px;
+            margin: 0 5px;
+          }
+        }
+        &>.keychains_right {
+          transform: translate(-35%, -50%);
+        }
+        &>.keychains_left {
+          transform: translate(35%, -50%);
+        }
+      }
+
+      
+    }
+  }
+
+  &>.right {
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
+    top: 23%;
+    width: 270px;
+    &>.textDA {
+      height: 30px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #0088B2;
+    }
+    &>.answer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+

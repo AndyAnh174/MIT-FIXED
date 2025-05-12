@@ -1,0 +1,87 @@
+.programming-team {
+  width: 1128px;
+  padding: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(128, 166, 179, 0.5);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  animation: move-in-left 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  & > .information {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    & > .name {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+
+    & > .time-created {
+      font-size: 20px;
+    }
+
+    & > .test-case {
+      height: 52px;
+      border-radius: 10px;
+      transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+      &.t1 {
+        background: #0c9b75;
+        animation: zoomIn 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+      &.t0 {
+        background: #ff7183;
+        animation: zoomIn 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+      &.t- {
+        background: rgba(255, 255, 255, 0.5);
+      }
+    }
+
+    & > .point {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #ffffff;
+      opacity: 1;
+      transition: all 1s linear;
+
+      & > .max-point {
+        font-size: 18px;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  & > .code {
+    height: 0;
+    width: 1089px;
+    background: #ffffff;
+    border-radius: 10px;
+    resize: none;
+    margin-top: 0;
+    opacity: 0;
+    transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-family: Consolas;
+    font-size: 18px;
+    padding: 0;
+
+    &.show {
+      height: 386px;
+      margin-top: 17px;
+      opacity: 1;
+      padding: 10px;
+    }
+  }
+}

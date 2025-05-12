@@ -1,0 +1,99 @@
+[
+  {
+    "_id": {
+      "$oid": "6274ae54337a012bd77aed63"
+    },
+    "username": "dolphin_wave",
+    "password": "test@dolphin_wave",
+    "displayName": "Dolphin Wave",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1655205007081"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "627931a2680406929f6b3b56"
+    },
+    "username": "admin",
+    "password": "admin@123",
+    "displayName": "MIT ADMIN 2024",
+    "role": "admin",
+    "point": 0,
+    "status": 1,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a6e4d36b0818092a0ec49c"
+    },
+    "username": "codezilla",
+    "password": "test@codezilla",
+    "displayName": "Codezilla",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1655205007094"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a6e5026b0818092a0ec49d"
+    },
+    "username": "100seconds",
+    "password": "test@100seconds",
+    "displayName": "100seconds",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1655205007102"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a6e51e6b0818092a0ec49e"
+    },
+    "username": "cliquey",
+    "password": "test@cliquey",
+    "displayName": "Cliquey",
+    "role": "player",
+    "point": 168.6,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1655205007111"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a6e5316b0818092a0ec49f"
+    },
+    "username": "cs_hcmut",
+    "password": "test@cs_hcmut",
+    "displayName": "CS_HCMUT",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1655205007121"
+      }
+    }
+  }
+]

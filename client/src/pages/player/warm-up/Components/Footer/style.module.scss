@@ -1,0 +1,30 @@
+.container {
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3),
+    inset 0px -4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  height: 56px;
+  width: 93px;
+  border-radius: 10px;
+  margin: 0 10px;
+  background: #0b64b6;
+}
+
+.green {
+  background-color: #0c9b75;
+}
+.red {
+  background-color: #dd2e44;
+}
+.orange {
+  background-color: #db6a05;
+}

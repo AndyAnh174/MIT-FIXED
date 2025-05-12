@@ -1,0 +1,11 @@
+[{"id":"1","content":"if (int(c)==c) {"},{"id":"2","content":"for (i = n - 1; i >= 0; i--) {"},{"id":"3","content":"}"},{"id":"4","content":"}"},{"id":"5","content":"}"},{"id":"6","content":"void xoahetcp(unsigned a[], int &n) {"},{"id":"7","content":"a[j - 1] = a[j];"},{"id":"8","content":"int j = i + 1;"},{"id":"9","content":"int i;"},{"id":"10","content":"double c = sqrt(a[i]);"},{"id":"11","content":"n--;"},{"id":"12","content":"for (; j < n; j++)"}]
+
+9-2-11-6-3-12-1-5-4-7-8-10,
+9-2-11-6-3-12-1-5-4-10-8-7,
+9-2-11-6-3-12-1-7-4-5-8-10,
+9-2-11-6-3-12-1-7-4-10-8-5,
+9-2-11-6-3-12-1-10-4-5-8-7,
+9-2-11-6-3-12-1-10-4-7-8-5
+
+
+[{"id":12,"content":"#include<stdio.h>"},{"id":17,"content":"#include<conio.h>"},{"id":5,"content":"int main()"},{"id":1,"content":"{"},{"id":13,"content":"int a, b;"},{"id":15,"content":"printf(\"\\nNhap a: \");"},{"id":11,"content":"scanf(\"%d\", &a);"},{"id":18,"content":"printf(\"\\nNhap b: \");"},{"id":2,"content":"scanf(\"%d\", &b);"},{"id":8,"content":"printf(\"\\nUCLN cua %d va %d la: \", a, b);"},{"id":7,"content":"while(a != b)"},{"id":16,"content":"{"},{"id":9,"content":"if(a > b)"},{"id":14,"content":"a = a - b;"},{"id":19,"content":"else"},{"id":6,"content":"b = b - a;"},{"id":10,"content":"}"},{"id":3,"content":"printf(\"%d\", a);"},{"id":4,"content":"return 0;"},{"id":20,"content":"}"}]

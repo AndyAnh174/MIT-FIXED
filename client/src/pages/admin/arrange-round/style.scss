@@ -1,0 +1,264 @@
+.arrange-admin-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../../public/assets/background-filter.png"),
+    linear-gradient(180deg, #9e1450 0%, #e44a4e 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+
+  & > .content {
+    height: calc(100vh - 110px);
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+
+    & > .left-side {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      background: #912a3d;
+      box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      padding-inline: 20px;
+      max-width: 900px;
+
+      & > .header {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        padding-block: 10px;
+
+        & > .name-round {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 39px;
+          color: #ffffff;
+        }
+
+        & > .round-score {
+          width: 135px;
+          text-align: center;
+          vertical-align: middle;
+          padding: 10px 0;
+          background: #ffffff;
+          box-shadow: inset 0px 5px 4px rgba(0, 0, 0, 0.35);
+          border-radius: 10px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          color: #dd2e44;
+        }
+      }
+
+      & > .paper-container {
+        flex-grow: 1;
+        flex-basis: 0;
+        position: relative;
+        background: #ffffff;
+        background-image: url("../../../../public/assets/logo-long.png");
+        background-size: 80%;
+        border-radius: 3px 3px 5px 5px;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: auto;
+      }
+
+      & > .footer {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        padding-block: 20px;
+
+        & > .timer {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          flex-grow: 1;
+          margin-right: 10px;
+
+          & > p {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 19px;
+            color: #ffffff;
+          }
+
+          & > .progress-bar {
+            position: relative;
+            align-self: center;
+            height: 4px;
+            width: 100%;
+            border-radius: 10px;
+            margin-left: 5px;
+            background-color: rgba(229, 229, 229, 0.5);
+            background-image: linear-gradient(to right, white, white);
+            background-repeat: no-repeat;
+            background-position: left;
+            overflow: hidden;
+            transition: all 0.02s ease-in-out;
+            z-index: 0;
+            overflow: visible;
+            transition: all 1s linear;
+
+            &::before {
+              position: absolute;
+              content: "";
+              width: 15px;
+              height: 15px;
+              border-radius: 10px;
+              background: white;
+              top: 50%;
+              left: var(--value);
+              z-index: 1;
+              transform: translateY(-50%) translateX(-50%);
+              transition: all 1s linear;
+            }
+          }
+        }
+
+        & > .group-btn {
+          display: flex;
+          flex-direction: row;
+          align-content: center;
+          justify-content: space-between;
+
+          & > .btn-3D {
+            height: 50px;
+            padding: 0px 10px;
+            margin: 0px 5px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #ffff;
+          }
+
+          & > .swap-question-btn {
+            &:enabled {
+              background: #0c9b75;
+            }
+          }
+
+          & > .restart-btn {
+            &:enabled {
+              background: #f98823;
+            }
+          }
+
+          & > .start-btn {
+            &:enabled {
+              background: #0c9b75;
+            }
+          }
+
+          & > .end-btn {
+            &:enabled {
+              background: #dd2e44;
+            }
+          }
+        }
+      }
+    }
+
+    & > .right-side {
+      min-width: 350px;
+      display: flex;
+      flex-direction: column;
+      background: #912a3d;
+      box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      gap: 20px;
+      height: 100%;
+      padding-bottom: 20px;
+
+      & > .header {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 20px;
+        padding-bottom: 0;
+        color: #cf6974;
+      }
+
+      & > .teams {
+        padding-inline: 20px;
+        flex: 1 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        overflow: auto;
+
+        & > .team-container {
+          background: rgb(255, 255, 255, 0.2);
+          border-radius: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          padding: 10px;
+          gap: 10px;
+
+          & > .team-name-btn {
+            background-color: #888888;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            border: none;
+            margin-top: 10px;
+            align-self: center;
+            width: 100%;
+            padding: 10px 0px;
+          }
+
+          & > .team-score {
+            height: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+
+            & > .input-score {
+              width: 100px;
+              text-align: end;
+              vertical-align: middle;
+              background: #ffffff;
+              box-shadow: inset 0px 5px 4px rgba(0, 0, 0, 0.35);
+              border-radius: 10px;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 28px;
+              color: #dd2e44;
+              margin-right: 10px;
+              padding: 0;
+              border: none;
+            }
+
+            & > .submit {
+              width: 30px;
+              height: 100%;
+              background: #888888;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

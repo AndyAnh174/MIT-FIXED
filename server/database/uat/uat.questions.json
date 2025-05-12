@@ -1,0 +1,242 @@
+[
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d451"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "6274c0a6e0313d4f9efed809"
+    },
+    "content": "Đây là HÀM xóa tất cả các số chính phương ra khỏi mảng số nguyên không âm a gồm n phần tử. Số chính phương là những số có giá trị bằng bình phương của một số nguyên nào đó, ví dụ: 1, 4, 9, 16, 25, …",
+    "point": 150,
+    "solution": "6-9-2-10-1-8-12-7-11-3-4-5,6-9-2-10-1-8-12-7-11-3-5-4,6-9-2-10-1-8-12-7-11-4-5-3,6-9-2-10-1-8-12-7-11-4-3-5,6-9-2-10-1-8-12-7-11-5-3-4,6-9-2-10-1-8-12-7-11-5-4-3",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 300
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d452"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "6279d8e85cc10b621211341b"
+    },
+    "content": "/api/files/round04_programming/Q.jpg",
+    "point": 200,
+    "solution": "",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 540
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d453"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "62795278222bb418543eb5b4"
+    },
+    "content": "wait",
+    "point": 0,
+    "solution": "",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 300
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d454"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "6279d9095cc10b621211341c"
+    },
+    "content": "/api/files/round03_speedup/Q.jpg",
+    "point": 150,
+    "solution": "ITer5 VN tu* t1n h0^.i nha^p",
+    "image": "speed up",
+    "year": "2024",
+    "timePeriod": 720
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d455"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q1.jpg",
+    "point": 10,
+    "solution": "C",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d456"
+    },
+    "order": 2,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q2.jpg",
+    "point": 10,
+    "solution": "C",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d457"
+    },
+    "order": 3,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q3.jpg",
+    "point": 10,
+    "solution": "B",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d458"
+    },
+    "order": 4,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q4.jpg",
+    "point": 10,
+    "solution": "A",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d459"
+    },
+    "order": 5,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q5.jpg",
+    "point": 10,
+    "solution": "D",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d45a"
+    },
+    "order": 6,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q6.jpg",
+    "point": 10,
+    "solution": "B",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d45b"
+    },
+    "order": 7,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q7.jpg",
+    "point": 10,
+    "solution": "D",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d45c"
+    },
+    "order": 8,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q8.jpg",
+    "point": 10,
+    "solution": "C",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d45d"
+    },
+    "order": 9,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q9.jpg",
+    "point": 10,
+    "solution": "C",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "648b4548c7e36f144a83d45e"
+    },
+    "order": 10,
+    "roundId": {
+      "$oid": "6279d84a5cc10b621211341a"
+    },
+    "content": "/api/files/round01_warmup/Q10.jpg",
+    "point": 10,
+    "solution": "C",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 16
+  },
+  {
+    "_id": {
+      "$oid": "648b4795c7e36f144a83d46e"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "62795278222bb418543eb5b4"
+    },
+    "content": "wait",
+    "point": 0,
+    "solution": "",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 300
+  },
+  {
+    "_id": {
+      "$oid": "62a49cbcac9291c4a3a31cec"
+    },
+    "order": 1,
+    "roundId": {
+      "$oid": "62a49bb3ac9291c4a3a31ce9"
+    },
+    "content": "",
+    "point": 150,
+    "solution": "",
+    "image": "",
+    "year": "2024",
+    "timePeriod": 300
+  }
+]

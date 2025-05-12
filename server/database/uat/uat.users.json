@@ -1,0 +1,89 @@
+[
+  {
+    "_id": {
+      "$oid": "6274ae54337a012bd77aed63"
+    },
+    "username": "dolphin_wave",
+    "password": "mit@dolphin_wave",
+    "displayName": "Dolphin Wave",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2023-06-15T18:59:08.213Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "627931a2680406929f6b3b56"
+    },
+    "username": "admin",
+    "password": "admin@2024",
+    "displayName": "MIT ADMIN 2024",
+    "role": "admin",
+    "point": 0,
+    "status": 1,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a6e4d36b0818092a0ec49c"
+    },
+    "username": "codezilla",
+    "password": "mit@codezilla",
+    "displayName": "Codezilla",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2023-06-15T18:59:08.218Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a6e5026b0818092a0ec49d"
+    },
+    "username": "100seconds",
+    "password": "mit@100seconds",
+    "displayName": "100seconds",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2023-06-15T18:59:08.221Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a6e51e6b0818092a0ec49e"
+    },
+    "username": "cliquey",
+    "password": "mit@cliquey",
+    "displayName": "Cliquey",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2023-06-15T18:59:08.226Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a6e5316b0818092a0ec49f"
+    },
+    "username": "cs_hcmut",
+    "password": "mit@cs_hcmut",
+    "displayName": "CS_HCMUT",
+    "role": "player",
+    "point": 0,
+    "status": 1,
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2023-06-15T18:59:08.230Z"
+    }
+  }
+]
