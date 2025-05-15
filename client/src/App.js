@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const handleOnConnected = data => {
       setUser(data.user);
-      if (!["/leader-board", "/login"].includes(location.pathname))
+      if (!["/leader-board", "/login", "/"].includes(location.pathname))
         switch (data.user.role) {
           case Role.Admin:
             navigate("/admin");

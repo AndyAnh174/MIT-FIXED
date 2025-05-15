@@ -1,0 +1,22 @@
+# Các thư mục không cần thiết
+node_modules
+npm-debug.log
+build
+.git
+.github
+.vscode
+
+# Các file môi trường và cấu hình
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Các file Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Các file khác
+README.md
+README.docker.md 

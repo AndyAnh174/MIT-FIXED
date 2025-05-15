@@ -4,8 +4,10 @@ import AdminDisplay from "pages/admin/admin-display";
 import LeaderBoard from "pages/admin/leader-board";
 import Login from "pages/login/Login";
 import GameDisplay from "pages/player/game-display";
+import HomePage from "pages/HomePage";
 
 export const PathRoute = Object.freeze({
+  Home: "",
   Admin: "admin",
   Game: "game",
   About: "about",
@@ -14,6 +16,10 @@ export const PathRoute = Object.freeze({
 });
 
 export const RouteComponent = Object.freeze({
+  [PathRoute.Home]: {
+    path: "/",
+    element: <HomePage />,
+  },
   [PathRoute.Admin]: {
     path: "/admin/*",
     element: <AdminDisplay />,
