@@ -3,9 +3,9 @@
     "_id": {
       "$oid": "6274ae54337a012bd77aed63"
     },
-    "username": "dolphin_wave",
-    "password": "mit@dolphin_wave",
-    "displayName": "Dolphin Wave",
+    "username": "ginger",
+    "password": "Ginger@MIT2025",
+    "displayName": "Ginger",
     "role": "player",
     "point": 0,
     "status": 1,
@@ -30,9 +30,9 @@
     "_id": {
       "$oid": "62a6e4d36b0818092a0ec49c"
     },
-    "username": "codezilla",
-    "password": "mit@codezilla",
-    "displayName": "Codezilla",
+    "username": "sigma",
+    "password": "Sigma@MIT2025",
+    "displayName": "Sigma",
     "role": "player",
     "point": 0,
     "status": 1,
@@ -45,9 +45,9 @@
     "_id": {
       "$oid": "62a6e5026b0818092a0ec49d"
     },
-    "username": "100seconds",
-    "password": "mit@100seconds",
-    "displayName": "100seconds",
+    "username": "scriptkiddies",
+    "password": "Script Kiddies@MIT2025",
+    "displayName": "Script Kiddies",
     "role": "player",
     "point": 0,
     "status": 1,
@@ -60,9 +60,9 @@
     "_id": {
       "$oid": "62a6e51e6b0818092a0ec49e"
     },
-    "username": "cliquey",
-    "password": "mit@cliquey",
-    "displayName": "Cliquey",
+    "username": "upstream",
+    "password": "Upstream@MIT2025",
+    "displayName": "Upstream",
     "role": "player",
     "point": 0,
     "status": 1,
@@ -75,9 +75,9 @@
     "_id": {
       "$oid": "62a6e5316b0818092a0ec49f"
     },
-    "username": "cs_hcmut",
-    "password": "mit@cs_hcmut",
-    "displayName": "CS_HCMUT",
+    "username": "losers",
+    "password": "Losers@MIT2025",
+    "displayName": "Losers",
     "role": "player",
     "point": 0,
     "status": 1,

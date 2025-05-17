@@ -657,10 +657,10 @@ const HomePage = () => {
                 LIÊN HỆ
               </Typography>
               <Typography variant="body2" sx={{ color: "rgba(255,255,255,0.7)", mb: 1 }}>
-                Email: mitapp2022@hcmute.edu.vn
+                Email: yit@hcmute.edu.vn
               </Typography>
               <Typography variant="body2" sx={{ color: "rgba(255,255,255,0.7)", mb: 1 }}>
-                Điện thoại: (028) 3896 4567
+                Điện thoại: 0764396306
               </Typography>
               <Typography variant="body2" sx={{ color: "rgba(255,255,255,0.7)" }}>
                 Địa chỉ: 01 Võ Văn Ngân, P. Linh Chiểu, TP. Thủ Đức, TP. HCM
