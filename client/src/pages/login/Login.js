@@ -1,6 +1,7 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./style.scss";
 import { VscClose, VscEye, VscEyeClosed } from "react-icons/vsc";
+import { FaUser, FaLock } from "react-icons/fa";
 import userApi from "apis/userApi";
 import { Role } from "constants";
 import { useNavigate } from "react-router-dom";
@@ -16,9 +17,14 @@ const Login = () => {
     message: "",
   });
   const [hiddenPassword, setHiddenPassword] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   const usernameRef = useRef();
   const passwordRef = useRef();
+
+  useEffect(() => {
+    usernameRef.current.focus();
+  }, []);
 
   const closeErrorModal = () => {
     setError({
@@ -56,6 +62,7 @@ const Login = () => {
     const { username, password } = user;
     if (validate(username, password)) {
       closeErrorModal();
+      setIsLoading(true);
       userApi
         .login(username, password)
         .then(({ data }) => {
@@ -76,12 +83,20 @@ const Login = () => {
               message: "Tài khoản hoặc mật khẩu không khớp",
             });
           }
+        })
+        .finally(() => {
+          setIsLoading(false);
         });
     }
   };
 
   return (
     <div className="login-container">
+      <div className="bg-cube"></div>
+      <div className="bg-cube"></div>
+      <div className="bg-cube"></div>
+      <div className="bg-cube"></div>
+
       <div className="sub-container">
         <div className="form-container">
           <div className="logo">
@@ -93,19 +108,8 @@ const Login = () => {
           {error.status ? (
             <div className="error-container">
               <div className="error-status">
-                <h2 className="error-title" style={{ margin: 0 }}>
-                  Đăng nhập thất bại!
-                </h2>
-                <p
-                  className="error-content"
-                  style={{
-                    fontSize: "20px",
-                    marginBottom: 0,
-                    marginTop: "11px",
-                  }}
-                >
-                  {error.message}
-                </p>
+                <h2 className="error-title">Đăng nhập thất bại!</h2>
+                <p className="error-content">{error.message}</p>
               </div>
               <div
                 className="error-close-button"
@@ -116,15 +120,24 @@ const Login = () => {
             </div>
           ) : null}
           <form className="login-form" onSubmit={handleSubmit}>
-            <input
-              ref={usernameRef}
-              id="inputTenDangNhap"
-              name="username"
-              placeholder="Tên đăng nhập"
-              value={user.username}
-              onChange={handleChange}
-            />
+            <div className="input-group">
+              <div className="input-icon">
+                <FaUser color="white" size={20} />
+              </div>
+              <input
+                ref={usernameRef}
+                id="inputTenDangNhap"
+                name="username"
+                placeholder="Tên đăng nhập"
+                value={user.username}
+                onChange={handleChange}
+                autoComplete="off"
+              />
+            </div>
             <div className="password-group">
+              <div className="input-icon">
+                <FaLock color="white" size={20} />
+              </div>
               <input
                 ref={passwordRef}
                 type={hiddenPassword ? `password` : `text`}
@@ -133,6 +146,7 @@ const Login = () => {
                 placeholder="Mật khẩu"
                 value={user.password}
                 onChange={handleChange}
+                autoComplete="off"
               />
               <div
                 className="hidden-password-icon"
@@ -146,8 +160,16 @@ const Login = () => {
               </div>
             </div>
 
-            <button type="submit" className="submit-btn btn-3D">
-              ĐĂNG NHẬP
+            <button
+              type="submit"
+              className="submit-btn"
+              disabled={isLoading}
+            >
+              {isLoading ? (
+                <div className="loading-spinner"></div>
+              ) : (
+                "ĐĂNG NHẬP"
+              )}
             </button>
           </form>
         </div>
