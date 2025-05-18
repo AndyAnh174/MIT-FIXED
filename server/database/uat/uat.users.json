@@ -4,7 +4,7 @@
       "$oid": "6274ae54337a012bd77aed63"
     },
     "username": "ginger",
-    "password": "Ginger@MIT2025",
+    "password": "ginger@MIT2025",
     "displayName": "Ginger",
     "role": "player",
     "point": 0,
@@ -19,8 +19,8 @@
       "$oid": "627931a2680406929f6b3b56"
     },
     "username": "admin",
-    "password": "admin@2024",
-    "displayName": "MIT ADMIN 2024",
+    "password": "admin@2025",
+    "displayName": "MIT ADMIN 2025",
     "role": "admin",
     "point": 0,
     "status": 1,
@@ -31,7 +31,7 @@
       "$oid": "62a6e4d36b0818092a0ec49c"
     },
     "username": "sigma",
-    "password": "Sigma@MIT2025",
+    "password": "sigma@MIT2025",
     "displayName": "Sigma",
     "role": "player",
     "point": 0,
@@ -46,7 +46,7 @@
       "$oid": "62a6e5026b0818092a0ec49d"
     },
     "username": "scriptkiddies",
-    "password": "Script Kiddies@MIT2025",
+    "password": "scriptkiddies@MIT2025",
     "displayName": "Script Kiddies",
     "role": "player",
     "point": 0,
@@ -61,7 +61,7 @@
       "$oid": "62a6e51e6b0818092a0ec49e"
     },
     "username": "upstream",
-    "password": "Upstream@MIT2025",
+    "password": "upstream@MIT2025",
     "displayName": "Upstream",
     "role": "player",
     "point": 0,
@@ -76,7 +76,7 @@
       "$oid": "62a6e5316b0818092a0ec49f"
     },
     "username": "losers",
-    "password": "Losers@MIT2025",
+    "password": "losers@MIT2025",
     "displayName": "Losers",
     "role": "player",
     "point": 0,

@@ -7,11 +7,11 @@
     "roundId": {
       "$oid": "6274c0a6e0313d4f9efed809"
     },
-    "content": "Chương trình tìm ước của 2 số nguyên",
+    "content": "Đây là HÀM tìm vị trí của 2 phần tử NGUYÊN TỐ CÙNG NHAU có tổng nhỏ nhất trong mảng các số nguyên dương a gồm n phần tử. Hàm trả về tổng nhỏ nhất, trường hợp mảng không có cặp phần tử nguyên tố cùng nhau nào, hàm trả về 0. Vị trí của 2 phần tử tìm được chứa trong các biến tham chiếu v1 và v2; nếu không tìm được thì v1=v2=-1. Giả sử chương trình đã có sẵn hàm uscln(a, b) để tìm ước số chung lớn nhất của 2 số nguyên a và b.",
     "point": 150,
-    "solution": "12-17-5-1-13-15-11-18-2-8-7-16-9-14-19-6-10-3-4-20,12-17-5-16-13-15-11-18-2-8-7-1-9-14-19-6-10-3-4-20,12-17-5-1-13-15-11-18-2-8-7-16-9-14-19-6-20-3-4-10,12-17-5-16-13-15-11-18-2-8-7-1-9-14-19-6-20-3-4-10",
+    "solution": "11-5-8-3-9-4-12-1-7-2-10-14-6-13,11-5-8-3-9-4-12-1-7-2-13-14-6-10,11-5-8-3-9-4-12-1-7-10-2-14-6-13,11-5-8-3-9-4-12-1-7-10-13-14-6-2,11-5-8-3-9-4-12-1-7-13-2-14-6-10,11-5-8-3-9-4-12-1-7-13-10-14-6-2,11-5-8-3-9-4-12-7-1-2-10-14-6-13,11-5-8-3-9-4-12-7-1-2-13-14-6-10,11-5-8-3-9-4-12-7-1-10-2-14-6-13,11-5-8-3-9-4-12-7-1-10-13-14-6-2,11-5-8-3-9-4-12-7-1-13-2-14-6-10,11-5-8-3-9-4-12-7-1-13-10-14-6-2,11-8-5-3-9-4-12-1-7-2-10-14-6-13,11-8-5-3-9-4-12-1-7-2-13-14-6-10,11-8-5-3-9-4-12-1-7-10-2-14-6-13,11-8-5-3-9-4-12-1-7-10-13-14-6-2,11-8-5-3-9-4-12-1-7-13-2-14-6-10,11-8-5-3-9-4-12-1-7-13-10-14-6-2,11-8-5-3-9-4-12-7-1-2-10-14-6-13,11-8-5-3-9-4-12-7-1-2-13-14-6-10,11-8-5-3-9-4-12-7-1-10-2-14-6-13,11-8-5-3-9-4-12-7-1-10-13-14-6-2,11-8-5-3-9-4-12-7-1-13-2-14-6-10,11-8-5-3-9-4-12-7-1-13-10-14-6-2",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 300
   },
   {
@@ -26,7 +26,7 @@
     "point": 200,
     "solution": "",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 540
   },
   {
@@ -41,7 +41,7 @@
     "point": 0,
     "solution": "",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 300
   },
   {
@@ -54,9 +54,9 @@
     },
     "content": "/api/files/backup/round03_speedup/Q.jpg",
     "point": 150,
-    "solution": "M1T 2O24 vui, kho?e, b0^? I'ch",
+    "solution": "5PKT: pha't trien & Ho^.i Nhap",
     "image": "speed up",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 720
   },
   {
@@ -71,7 +71,7 @@
     "point": 10,
     "solution": "A",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -86,7 +86,7 @@
     "point": 10,
     "solution": "C",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -101,7 +101,7 @@
     "point": 10,
     "solution": "B",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -116,7 +116,7 @@
     "point": 10,
     "solution": "C",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -129,9 +129,9 @@
     },
     "content": "/api/files/backup/round01_warmup/Q5.jpg",
     "point": 10,
-    "solution": "A",
+    "solution": "D",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -144,9 +144,9 @@
     },
     "content": "/api/files/backup/round01_warmup/Q6.jpg",
     "point": 10,
-    "solution": "B",
+    "solution": "C",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -159,9 +159,9 @@
     },
     "content": "/api/files/backup/round01_warmup/Q7.jpg",
     "point": 10,
-    "solution": "A",
+    "solution": "D",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -176,7 +176,7 @@
     "point": 10,
     "solution": "A",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -191,7 +191,7 @@
     "point": 10,
     "solution": "C",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -206,7 +206,7 @@
     "point": 10,
     "solution": "B",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -221,7 +221,7 @@
     "point": 0,
     "solution": "",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 300
   },
   {
@@ -236,7 +236,7 @@
     "point": 150,
     "solution": "",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 300
   }
 ]

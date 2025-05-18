@@ -7,11 +7,11 @@
     "roundId": {
       "$oid": "6274c0a6e0313d4f9efed809"
     },
-    "content": "Đây là HÀM xóa tất cả các số chính phương ra khỏi mảng số nguyên không âm a gồm n phần tử. Số chính phương là những số có giá trị bằng bình phương của một số nguyên nào đó, ví dụ: 1, 4, 9, 16, 25, …",
+    "content": "Đây là HÀM tìm vị trí của 2 phần tử NGUYÊN TỐ CÙNG NHAU có tổng nhỏ nhất trong mảng các số nguyên dương a gồm n phần tử. Hàm trả về tổng nhỏ nhất, trường hợp mảng không có cặp phần tử nguyên tố cùng nhau nào, hàm trả về 0. Vị trí của 2 phần tử tìm được chứa trong các biến tham chiếu v1 và v2; nếu không tìm được thì v1=v2=-1. Giả sử chương trình đã có sẵn hàm uscln(a, b) để tìm ước số chung lớn nhất của 2 số nguyên a và b.",
     "point": 150,
-    "solution": "6-9-2-10-1-8-12-7-11-3-4-5,6-9-2-10-1-8-12-7-11-3-5-4,6-9-2-10-1-8-12-7-11-4-5-3,6-9-2-10-1-8-12-7-11-4-3-5,6-9-2-10-1-8-12-7-11-5-3-4,6-9-2-10-1-8-12-7-11-5-4-3",
-    "image": "",
-    "year": "2024",
+    "solution": "11-5-8-3-9-4-12-1-7-2-10-14-6-13,11-5-8-3-9-4-12-1-7-2-13-14-6-10,11-5-8-3-9-4-12-1-7-10-2-14-6-13,11-5-8-3-9-4-12-1-7-10-13-14-6-2,11-5-8-3-9-4-12-1-7-13-2-14-6-10,11-5-8-3-9-4-12-1-7-13-10-14-6-2,11-5-8-3-9-4-12-7-1-2-10-14-6-13,11-5-8-3-9-4-12-7-1-2-13-14-6-10,11-5-8-3-9-4-12-7-1-10-2-14-6-13,11-5-8-3-9-4-12-7-1-10-13-14-6-2,11-5-8-3-9-4-12-7-1-13-2-14-6-10,11-5-8-3-9-4-12-7-1-13-10-14-6-2,11-8-5-3-9-4-12-1-7-2-10-14-6-13,11-8-5-3-9-4-12-1-7-2-13-14-6-10,11-8-5-3-9-4-12-1-7-10-2-14-6-13,11-8-5-3-9-4-12-1-7-10-13-14-6-2,11-8-5-3-9-4-12-1-7-13-2-14-6-10,11-8-5-3-9-4-12-1-7-13-10-14-6-2,11-8-5-3-9-4-12-7-1-2-10-14-6-13,11-8-5-3-9-4-12-7-1-2-13-14-6-10,11-8-5-3-9-4-12-7-1-10-2-14-6-13,11-8-5-3-9-4-12-7-1-10-13-14-6-2,11-8-5-3-9-4-12-7-1-13-2-14-6-10,11-8-5-3-9-4-12-7-1-13-10-14-6-2",
+    "image": "[{\"id\":1,\"content\":\"min = a[i] + a[j];\"},{\"id\":2,\"content\":\"}\"},{\"id\":3,\"content\":\"for(int i=0; i<n-1; i++)\"},{\"id\":4,\"content\":\"if (uscln(a[i], a[j]) == 1)\"},{\"id\":5,\"content\":\"int min = INT_MAX;\"},{\"id\":6,\"content\":\"return min;\"},{\"id\":7,\"content\":\"v1 = i; v2 = j;\"},{\"id\":8,\"content\":\"v1 = v2 = -1;\"},{\"id\":9,\"content\":\"for (int j = i + 1; j < n; j++) {\"},{\"id\":10,\"content\":\"}\"},{\"id\":11,\"content\":\"int NTcungnhauMin(int a[], int n, int& v1, int& v2) {\"},{\"id\":12,\"content\":\"if (a[i] + a[j] < min) {\"},{\"id\":13,\"content\":\"}\"},{\"id\":14,\"content\":\"if (v1 == -1) return 0;\"}]",
+    "year": "2025",
     "timePeriod": 300
   },
   {
@@ -26,7 +26,7 @@
     "point": 200,
     "solution": "",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 540
   },
   {
@@ -41,7 +41,7 @@
     "point": 0,
     "solution": "",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 300
   },
   {
@@ -54,9 +54,9 @@
     },
     "content": "/api/files/round03_speedup/Q.jpg",
     "point": 150,
-    "solution": "ITer5 VN tu* t1n h0^.i nha^p",
+    "solution": "MIT-20 nam dong hanh cung HCMUT3",
     "image": "speed up",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 720
   },
   {
@@ -69,9 +69,9 @@
     },
     "content": "/api/files/round01_warmup/Q1.jpg",
     "point": 10,
-    "solution": "C",
+    "solution": "A",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -86,7 +86,7 @@
     "point": 10,
     "solution": "C",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -101,7 +101,7 @@
     "point": 10,
     "solution": "B",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -114,9 +114,9 @@
     },
     "content": "/api/files/round01_warmup/Q4.jpg",
     "point": 10,
-    "solution": "A",
+    "solution": "C",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -131,7 +131,7 @@
     "point": 10,
     "solution": "D",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -144,9 +144,9 @@
     },
     "content": "/api/files/round01_warmup/Q6.jpg",
     "point": 10,
-    "solution": "B",
+    "solution": "C",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -161,7 +161,7 @@
     "point": 10,
     "solution": "D",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -174,9 +174,9 @@
     },
     "content": "/api/files/round01_warmup/Q8.jpg",
     "point": 10,
-    "solution": "C",
+    "solution": "A",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -191,7 +191,7 @@
     "point": 10,
     "solution": "C",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -206,7 +206,7 @@
     "point": 10,
     "solution": "C",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 16
   },
   {
@@ -221,7 +221,7 @@
     "point": 0,
     "solution": "",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 300
   },
   {
@@ -236,7 +236,7 @@
     "point": 150,
     "solution": "",
     "image": "",
-    "year": "2024",
+    "year": "2025",
     "timePeriod": 300
   }
 ]
